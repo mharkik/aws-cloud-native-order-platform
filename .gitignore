@@ -16,6 +16,14 @@ Thumbs.db
 .env.*
 !.env.example
 *.log
+application-local.yml
+application-local.yaml
+application-local.properties
+
+# Credentials and private keys
+.aws/
+*.pem
+*.key
 
 # Terraform
 **/.terraform/

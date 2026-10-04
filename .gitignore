@@ -1,0 +1,26 @@
+# Maven und Java
+**/target/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# Lokale Konfiguration und Logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
